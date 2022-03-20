@@ -57,6 +57,10 @@ Export the images to a folder
 python3 data.py export <image db path> --out_dir <output directory>
 ```
 
+```
+python data.py export bedroom_val_lmdb --out_dir ./bedroom/ --flat
+```
+
 ### Example:
 
 Export all the images in valuation sets in the current folder to a
